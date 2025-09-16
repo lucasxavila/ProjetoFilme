@@ -46,7 +46,7 @@ dotnet run
 ## Testes Unitários
 
 Para garantir a qualidade do código, inclui testes unitários com xUnit. Eles seriam para validar o comportamento da classe FilmeRepositorio, cobrindo cenários de sucesso e de falha das operações de CRUD. 
-Entretanto tive dificuldade para deixar os testes funcionando corretamente, sigo fazendo pesquisas para melhorar minhas habilidades nesse quesito.
+Entretanto tive dificuldade para deixar os testes funcionando corretamente, sigo fazendo pesquisas para melhorar minhas habilidades neste quesito.
 
 ### Para rodar os testes, execute o comando na pasta raiz do projeto:
 ```
@@ -73,3 +73,7 @@ Para registrar operações e fornecer feedback ao usuário, por ser uma aplicaç
 Apenas utilizando a própria saída do console para registrar:
 - Operações de Sucesso: Mensagens como "Filme adicionado com sucesso!" são exibidas para o usuário;
 - Erros e Validações: Mensagens informativas como "Formato de data inválido." ou "O título é obrigatório." também são exibidas.
+
+## Imagem do código
+
+<img width="1908" height="899" alt="image" src="https://github.com/user-attachments/assets/03722750-c3a8-432b-a7f7-21dc28387690" />
