@@ -45,8 +45,11 @@ dotnet run
 
 ## Testes Unitários
 
-Para garantir a qualidade do código, inclui testes unitários com xUnit. Eles seriam para validar o comportamento da classe FilmeRepositorio, cobrindo cenários de sucesso e de falha das operações de CRUD. 
+Para garantir a qualidade do código, inclui testes unitários com xUnit. Eles seriam para validar o comportamento da classe FilmeRepositorio, cobrindo cenários de sucesso das operações de CRUD. 
 Entretanto tive dificuldade para deixar os testes funcionando corretamente, sigo fazendo pesquisas para melhorar minhas habilidades neste quesito.
+
+**upd:** O arquivo de teste cria um novo banco de dados para realizá-los, estava dando erro na forma que baixei o ``Microsoft.Data.Sqlite`` no projeto de **testes**.
+Os testes adicionados são: adicionar novo filme, buscar, atualizar e deletar filmes.
 
 ### Para rodar os testes, execute o comando na pasta raiz do projeto:
 ```
